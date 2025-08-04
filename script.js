@@ -8,7 +8,7 @@ const countSelect = document.getElementById("count-select");
 const ratioSelect = document.getElementById("ratio-select");
 const gridGallery = document.querySelector(".gallery-grid");
 
-const API_KEY = "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"; //hugging face api key
+const API_KEY = "..."; // paste here your api hugging face api keys 
 
 const examplePrompts = [
   "A magic forest with glowing plants and fairy homes among giant mushrooms",
@@ -153,5 +153,6 @@ promptBtn.addEventListener("click", () =>{
 });
 
 promptForm.addEventListener("submit",handleFormSubmit);
+
 
 themeToggle.addEventListener("click", toggleTheme);
